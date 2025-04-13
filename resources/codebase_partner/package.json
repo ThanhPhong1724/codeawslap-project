@@ -4,7 +4,8 @@
   "description": "simple coffee parners API",
   "main": "index.js",
   "scripts": {
-    "start": "APP_DB_HOST=$APP_DB_HOST node index.js"
+    "start": "APP_DB_HOST=lap-database.cgqeuomu35di.us-east-1.rds.amazonaws.com node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "aws t&c",
   "license": "MIT",
